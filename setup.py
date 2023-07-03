@@ -32,7 +32,7 @@ setuptools.setup(
     url="https://github.com/maudl3116/higherOrderKME",
     packages=setuptools.find_packages(exclude=['examples', 'tests']),
     install_requires=["cython >= 0.29", "numba >= 0.50", "torch >= 1.6.0", "numpy==1.20.1", "scipy==1.6.2", 
-                       "h5py==2.8.0", "matplotlib==3.3.4"], 
+                    "matplotlib==3.3.4"], 
     python_requires='~=3.6',
     ext_modules=cythonize(ext_modules), 
     classifiers=[
