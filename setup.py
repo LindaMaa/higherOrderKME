@@ -31,7 +31,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/LindaMaa/higherOrderKME/",
     packages=setuptools.find_packages(exclude=['examples', 'tests']),
-    install_requires=["cython >= 0.29", "numba >= 0.50", "torch >= 1.6.0", "numpy==1.20.1", "scipy==1.6.2", 
+    install_requires=["torch >= 1.6.0", "numpy==1.20.1", "scipy==1.6.2", 
                     "matplotlib==3.3.4"], 
     python_requires='~=3.6',
     ext_modules=cythonize(ext_modules), 
