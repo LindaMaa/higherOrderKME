@@ -32,7 +32,7 @@ setuptools.setup(
     url="https://github.com/LindaMaa/higherOrderKME/",
     packages=setuptools.find_packages(exclude=['examples', 'tests']),
     install_requires=["torch >= 1.6.0"], 
-    python_requires='~=3.6',
+    python_requires='>=3.6',
     ext_modules=cythonize(ext_modules), 
     classifiers=[
         "Programming Language :: Python :: 3",
